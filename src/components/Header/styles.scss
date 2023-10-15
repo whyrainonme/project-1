@@ -4,21 +4,20 @@ header.main {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
+  margin: auto;
 
-  // svg {
-  //   font-size: 50px;
-  //   color: $primary-color;
-  //   margin-right: 10px;
+  svg {
+    transform: scale(0.4);
+    color: $primary-color;
 
-  //   @include breakpoint-small {
-  //     font-size: 60px;
-  //   }
+    @include breakpoint-small {
+      font-size: 6px;
+    }
 
-  //   @include breakpoint-large {
-  //     font-size: 70px;
-  //   }
-  // }
+    @include breakpoint-large {
+      font-size: 7px;
+    }
+  }
 
   div {
     font-family: $body-font;
