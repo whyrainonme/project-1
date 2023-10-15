@@ -1,0 +1,37 @@
+@import '../../styles/variables.scss';
+
+header.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+
+  // svg {
+  //   font-size: 50px;
+  //   color: $primary-color;
+  //   margin-right: 10px;
+
+  //   @include breakpoint-small {
+  //     font-size: 60px;
+  //   }
+
+  //   @include breakpoint-large {
+  //     font-size: 70px;
+  //   }
+  // }
+
+  div {
+    font-family: $body-font;
+    font-size: 30px;
+    font-weight: normal;
+    color: $title-color;    
+
+    @include breakpoint-small {
+      font-size: 36px;
+    }
+
+    @include breakpoint-large {
+      font-size: 42px;
+    }
+  }
+}
