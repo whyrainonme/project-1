@@ -5,9 +5,8 @@ $body-font: 'Roboto', sans-serif;
 $title-color: #525050;
 $primary-color: #3e497a;
 $secondary-color: #62626c;
-$text-color: #fdfdfd;
+$text-color: #4a4a4a;
 $border-color: #9e9ea4;
-$background-color: #e1e1e9;
 
 @mixin breakpoint($min-width) {
   @media only screen and (min-width: $min-width) {

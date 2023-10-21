@@ -5,7 +5,7 @@ import Home from "./pages/Home_page";
 import About from "./pages/About_page";
 import Service from "./pages/Service_page";
 import Artist from "./pages/Artist_page";
-import Contest from "./pages/ContestPage";
+import Contest from "./pages/Contest_Page";
 import Shop from "./pages/Shop_page";
 import Gallery from "./pages/Gallery_page";
 import Board from "./pages/Board_page";
