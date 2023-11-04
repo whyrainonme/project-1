@@ -1,11 +1,11 @@
 import PageContainer from '../../components/PageContainer'
 
-export default function Shop() {
+export default function Collabo() {
 
   return (
 
-    <PageContainer title='Shop'>
-      <div>Shop</div>
+    <PageContainer title='Collabo'>
+      <div>Collabo</div>
     </PageContainer>
     
   );

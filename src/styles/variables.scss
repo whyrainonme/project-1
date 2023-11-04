@@ -2,11 +2,11 @@
 $title-font: 'Lobster', cursive;
 $body-font: 'Roboto', sans-serif;
 
-$title-color: #525050;
+$title-color: #515052;
 $primary-color: #3e497a;
-$secondary-color: #62626c;
+$secondary-color: #ec85f1;
 $text-color: #4a4a4a;
-$border-color: #9e9ea4;
+$border-color: #be90cb;
 
 @mixin breakpoint($min-width) {
   @media only screen and (min-width: $min-width) {

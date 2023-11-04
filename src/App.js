@@ -2,15 +2,20 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home_page";
-import About from "./pages/About_page";
-import Service from "./pages/Service_page";
+
+import Connta from "./pages/CONNTA_page";
+import Introduce from "./pages/CONNTA_page/categories/introduce";
+import Design_consult from "./pages/CONNTA_page/categories/design_consult";
+import News from "./pages/CONNTA_page/categories/news";
+import Events from "./pages/CONNTA_page/categories/events";
+
 import Artist from "./pages/Artist_page";
-import Contest from "./pages/Contest_Page";
+
+import Performance from "./pages/Performance_page";
+
+import Collabo from "./pages/Collabo_page";
+
 import Shop from "./pages/Shop_page";
-import Gallery from "./pages/Gallery_page";
-import Board from "./pages/Board_page";
-import News from "./pages/News_page";
-import Contact from "./pages/Contact_page";
 
 import NotFoundPage from "./pages/NotFound_page";
 
@@ -52,17 +57,22 @@ export default function App() {
         : (
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/connta" element={<Home />} />
+            <Route path="/home" element={<Home />} />
 
-            <Route path="/about" element={<About />} />
-            <Route path="/service" element={<Service />} />
+            <Route path="/connta" element={<Connta />} />
+            <Route path="/connta/introduce" element={<Introduce />} />
+            <Route path="/connta/design_consult" element={<Design_consult />} />
+            <Route path="/connta/news" element={<News />} />
+            <Route path="/connta/events" element={<Events />} />
+
             <Route path="/artist" element={<Artist />} />
-            <Route path="/contest" element={<Contest />} />
+
+            <Route path="/performance" element={<Performance />} />
+
+            <Route path="/collabo" element={<Collabo />} />
+
             <Route path="/shop" element={<Shop />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/board" element={<Board />} />
-            <Route path="/news" element={<News />} />
-            <Route path="/contact" element={<Contact />} />
+
 
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
