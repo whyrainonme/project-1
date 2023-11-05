@@ -8,7 +8,7 @@ export default function MainMenu() {
 
     <nav className='main'>
 
-      <div className="connta">
+      <div className='connta'>
         <button className='conntabtn'>
           {/* CONNTA menu with contents */}
           <NavLink to='/connta'>CONNTA</NavLink>
@@ -23,12 +23,41 @@ export default function MainMenu() {
             </div>
           </div>
         </div>
-
       </div>
-      <NavLink to='/artist'>ARTIST</NavLink>
-      <NavLink to='/performance'>PERFORMANCE</NavLink>
-      <NavLink to='/collabo'>COLLABO</NavLink>
-      <NavLink to='/shop'>SHOP</NavLink>
+
+      <div className='connta'>
+        <button className='conntabtn'>
+          {/* ARTIST menu with contents */}
+          <NavLink to='/artist'>ARTIST</NavLink>
+        </button>
+        <div className='connta-content'>
+          <div className='row'>
+            <div className='column'>
+              <NavLink to='/artist/license_market'>LICENCE MARKET</NavLink>
+              <NavLink to='/artist/gallery'>GALLERY</NavLink>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='connta'>
+        <button className='conntabtn'>
+          <NavLink to='/performance'>PERFORMANCE</NavLink>
+        </button>
+      </div>
+
+      <div className='connta'>
+        <button className='conntabtn'>
+          <NavLink to='/collabo'>COLLABO</NavLink>
+        </button>
+      </div>
+
+      <div className='connta'>
+        <button className='conntabtn'>
+          <NavLink to='/shop'>SHOP</NavLink>
+        </button>
+      </div>
+
     </nav>
 
   );

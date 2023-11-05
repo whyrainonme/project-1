@@ -5,11 +5,13 @@ import Home from "./pages/Home_page";
 
 import Connta from "./pages/CONNTA_page";
 import Introduce from "./pages/CONNTA_page/categories/introduce";
-import Design_consult from "./pages/CONNTA_page/categories/design_consult";
+import DesignConsult from "./pages/CONNTA_page/categories/design_consult";
 import News from "./pages/CONNTA_page/categories/news";
 import Events from "./pages/CONNTA_page/categories/events";
 
 import Artist from "./pages/Artist_page";
+import LicenseMarket from "./pages/Artist_page/categories/license_market";
+import Gallery from "./pages/Artist_page/categories/gallery";
 
 import Performance from "./pages/Performance_page";
 
@@ -61,11 +63,13 @@ export default function App() {
 
             <Route path="/connta" element={<Connta />} />
             <Route path="/connta/introduce" element={<Introduce />} />
-            <Route path="/connta/design_consult" element={<Design_consult />} />
+            <Route path="/connta/design_consult" element={<DesignConsult />} /> 
             <Route path="/connta/news" element={<News />} />
             <Route path="/connta/events" element={<Events />} />
 
             <Route path="/artist" element={<Artist />} />
+            <Route path="/artist/license_market" element={<LicenseMarket />} />
+            <Route path="/artist/gallery" element={<Gallery />} />
 
             <Route path="/performance" element={<Performance />} />
 
