@@ -2,30 +2,33 @@
 
 nav.main {
   display: flex;
-  justify-content: space-between;
-  background-color: rgba(145, 144, 144, 0.765);
-  height: 48px;
+  background-color: rgba(220, 220, 220, 0.765);
   align-items: center;
   overflow: hidden;
   font-size: 12px;
 
   .connta {
-    float: left;
     overflow: hidden;
-    margin: 5rem;
-
+    width: 100%;
+  
     .conntabtn {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
       border: none;
       outline: none;
       color: white;
-      padding: 17px 18px; 
+      padding: 17px 18px;
       background-color: inherit;
       font: inherit;
 
       &:hover {
+            
         transform: scale(1.2);
-        background-color: rgb(0, 0, 0);
-        background-color: rgba(56, 58, 69, 0.4);
+        background-color: rgb(161, 160, 160);
+        background-color: rgba(185, 185, 185, 0.4);
       }
     }
   }
