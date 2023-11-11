@@ -1,6 +1,8 @@
 import PageContainer from "../../../components/PageContainer";
 import about1 from "../../../assets/about1.JPG";
 import about2 from "../../../assets/about2.JPG";
+import aboutLogo1 from "../../../assets/aboutLogo1.PNG";
+import aboutLogo2 from "../../../assets/aboutLogo2.PNG";
 import './styles.scss';
 
 function introduce() {
@@ -21,6 +23,9 @@ function introduce() {
 
         <img className='about' src={about1} alt="about image1" />
         <img className='about' src={about2} alt="about image2" />
+
+        <img className='aboutLogo' src={aboutLogo1} alt="about logo1" />
+        <img className='aboutLogo' src={aboutLogo2} alt="about logo2" />
       </div>
     </PageContainer>
   )

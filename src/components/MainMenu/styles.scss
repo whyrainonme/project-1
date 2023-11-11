@@ -3,7 +3,7 @@
 nav.main {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(106, 112, 155, 0.765);
+  background-color: rgba(145, 144, 144, 0.765);
   height: 48px;
   align-items: center;
   overflow: hidden;
@@ -12,15 +12,15 @@ nav.main {
   .connta {
     float: left;
     overflow: hidden;
+    margin: 5rem;
 
     .conntabtn {
       border: none;
       outline: none;
       color: white;
-      padding: 17px 18px;
+      padding: 17px 18px; 
       background-color: inherit;
       font: inherit;
-      margin: 0;
 
       &:hover {
         transform: scale(1.2);
