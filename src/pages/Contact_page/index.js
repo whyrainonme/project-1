@@ -8,12 +8,12 @@ export default function Contact() {
 
     <>
       <PageContainer className="CONTACT">
-        <div className="Contact">
+        <div className="contact">
           <img className='contact_img' src={verdot1} alt="contact img" />
         </div>
       </PageContainer>
     </>
-    
+
   );
 
 }
