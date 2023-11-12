@@ -4,9 +4,11 @@ export default function Performance() {
 
   return (
 
-    <PageContainer title='Performance'>
-      <div>Performance</div>
-    </PageContainer>
+    <>
+      <PageContainer title='Performance'>
+        <div>Performance</div>
+      </PageContainer>
+    </>
     
   );
 

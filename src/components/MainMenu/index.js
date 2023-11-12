@@ -58,6 +58,12 @@ export default function MainMenu() {
         </button>
       </div>
 
+      <div className='connta'>
+        <button className='conntabtn'>
+          <NavLink to='/contact'>CONTACT</NavLink>
+        </button>
+      </div>
+
     </nav>
 
   );

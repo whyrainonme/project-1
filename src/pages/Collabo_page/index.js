@@ -4,10 +4,12 @@ export default function Collabo() {
 
   return (
 
-    <PageContainer title='Collabo'>
-      <div>Collabo</div>
-    </PageContainer>
-    
+    <>
+      <PageContainer title='Collabo'>
+        <div>Collabo</div>
+      </PageContainer>
+    </>
+
   );
 
 }

@@ -1,11 +1,15 @@
 import PageContainer from '../../../components/PageContainer'
 
-function events() {
-  return (
-    <PageContainer title='EVENTS'>
-      <div>Events</div>
-    </PageContainer>
-  )
-}
+export default function events() {
 
-export default events
+  return (
+
+    <>
+      <PageContainer title='EVENTS'>
+        <div>Events</div>
+      </PageContainer>
+    </>
+    
+  );
+
+}

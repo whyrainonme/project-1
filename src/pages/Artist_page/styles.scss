@@ -1,0 +1,15 @@
+@import './../../styles/variables.scss';
+
+.artist {
+  margin: 8rem;
+
+  .about {
+    font-size: 20px;
+  }
+
+  .para1,
+  .para2  {
+    font-size: 18px;
+    margin: 3rem;
+  }
+}

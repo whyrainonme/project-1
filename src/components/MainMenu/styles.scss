@@ -27,8 +27,8 @@ nav.main {
       &:hover {
             
         transform: scale(1.2);
-        background-color: rgb(161, 160, 160);
-        background-color: rgba(185, 185, 185, 0.4);
+        background-color: rgb(176, 175, 175);
+        background-color: rgba(205, 204, 204, 0.4);
       }
     }
   }
@@ -36,7 +36,7 @@ nav.main {
   .connta-content {
     display: none;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(58, 58, 58, 0.5);
     width: 100%;
     left: 0;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);

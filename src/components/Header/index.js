@@ -8,6 +8,7 @@ import MainMenu from '../MainMenu';
 export default function Header() {
 
   return (
+
     <>
       <Link to='/'>
         <header className='main'>
@@ -18,6 +19,7 @@ export default function Header() {
 
       <MainMenu />
     </>
+    
   );
 
 }

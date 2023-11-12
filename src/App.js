@@ -19,6 +19,9 @@ import Collabo from "./pages/Collabo_page";
 
 import Shop from "./pages/Shop_page";
 
+import Contact from "./pages/Contact_page";
+
+// 404 page
 import NotFoundPage from "./pages/NotFound_page";
 
 import { Routes, Route } from "react-router-dom";
@@ -76,7 +79,8 @@ export default function App() {
             <Route path="/collabo" element={<Collabo />} />
 
             <Route path="/shop" element={<Shop />} />
-
+            
+            <Route path="/contact" element={<Contact />} />
 
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
