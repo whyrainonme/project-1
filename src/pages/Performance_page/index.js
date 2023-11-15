@@ -6,7 +6,6 @@ export default function Performance() {
 
     <>
       <PageContainer title='Performance'>
-        <div>Performance</div>
       </PageContainer>
     </>
     

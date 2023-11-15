@@ -1,6 +1,6 @@
 import { appName } from './../../includes/variables';
 import { Link } from 'react-router-dom';
-import logo from './../../assets/logo.PNG';
+import logo from './../../assets/CONNTA.PNG';
 import './styles.scss';
 
 import MainMenu from '../MainMenu';

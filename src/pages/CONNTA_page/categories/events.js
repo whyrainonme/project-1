@@ -5,8 +5,7 @@ export default function events() {
   return (
 
     <>
-      <PageContainer title='EVENTS'>
-        <div>Events</div>
+      <PageContainer title='Events'>
       </PageContainer>
     </>
     

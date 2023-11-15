@@ -5,8 +5,7 @@ export default function license_market() {
   return (
 
     <>
-      <PageContainer title='LICENSE MARKET'>
-        <div>License Market</div>
+      <PageContainer title='License Market'>
       </PageContainer>
     </>
     

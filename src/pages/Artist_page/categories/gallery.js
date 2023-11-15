@@ -5,8 +5,7 @@ export default function gallery() {
   return (
 
     <>
-      <PageContainer title='GALLERY'>
-        <div>Gallery</div>
+      <PageContainer title='Gallery'>
       </PageContainer>
     </>
     

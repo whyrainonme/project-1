@@ -6,7 +6,7 @@ export default function Artist() {
   return (
     
     <>
-      <PageContainer className="ARTIST">
+      <PageContainer>
         <div className="artist">
           <div className='about'>Artists</div>
           <p className="para1">

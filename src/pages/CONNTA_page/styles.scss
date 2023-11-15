@@ -1,0 +1,13 @@
+@import './../../styles/variables.scss';
+
+.home {
+
+  display: flex;
+  align-items: center;
+
+  .home_img {
+    height: 40%;
+    width: 40%;
+  }
+
+}

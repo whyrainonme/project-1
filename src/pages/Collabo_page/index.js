@@ -6,7 +6,6 @@ export default function Collabo() {
 
     <>
       <PageContainer title='Collabo'>
-        <div>Collabo</div>
       </PageContainer>
     </>
 

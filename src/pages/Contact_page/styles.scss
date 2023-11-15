@@ -2,11 +2,34 @@
 
 .contact {
 
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  align-items: center;
+
 
   .contact_img {
-    display: flex;
     margin-top: 3rem;
+    height: 30%;
+    width: 30%;
+  }
+
+  .contact_para {
+    font-size: 20px;
     height: 50%;
     width: 50%;
+  }
+
+  .contact_para2 {
+    font-size: 16px;
+  }
+
+  .contact_para3 {
+    font-size: 14px;
+  }
+
+  .contact_email {
+    font-size: 18px;
+    color: $title-color;
   }
 }

@@ -5,8 +5,7 @@ export default function news() {
   return (
 
     <>
-      <PageContainer title='NEWS'>
-        <div>News</div>
+      <PageContainer title='News'>
       </PageContainer>
     </>
     
