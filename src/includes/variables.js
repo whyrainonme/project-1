@@ -1,1 +1,1 @@
-const appName = "Connta";
+// const appName = "Connta";

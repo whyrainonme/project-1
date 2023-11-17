@@ -5,9 +5,33 @@
   display: flex;
   align-items: center;
 
-  .home_img {
-    height: 40%;
-    width: 40%;
+  .home_img1 {
+    height: 30%;
+    width: 30%;
   }
 
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .home_img2 {
+    height: 90%;
+    width: 90%;
+  }
+
+  .home_img3 {
+    margin-top: 3rem;
+    height: 5%;
+    width: 5%;
+  }
+
+}
+
+main.page {
+  .container {
+    margin: 0;
+  }
 }

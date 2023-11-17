@@ -60,6 +60,7 @@ export default function App() {
         : (
           <Routes>
             <Route path="/" element={<Connta />} />
+            <Route path="/project-1" element={<Connta />} />
             <Route path="/home" element={<Connta />} />
 
             <Route path="/connta" element={<Connta />} />
