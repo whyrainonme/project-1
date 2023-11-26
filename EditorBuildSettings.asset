@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/KOEX/WolrdMap.unity
+    guid: 297f108ede47f448da759efa28766185
+  - enabled: 1
+    path: Assets/Scenes/SangsangMadang.unity
+    guid: 6ee9d47ff4ad3044b83d7b3a91dfcd97
+  - enabled: 1
+    path: Assets/Scenes/KOEX/WD_stage.unity
+    guid: 8c29a666949064aa1a8670249d30a336
+  - enabled: 1
+    path: Assets/Scenes/KOEX/WD_fan.unity
+    guid: 0420da4999f51e44aaf8743ff042b44b
+  - enabled: 1
+    path: Assets/Scenes/HongDea.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/scene_default1.unity
+    guid: d0703317d1b2c844a868242822b809fa
+  - enabled: 1
+    path: Assets/Scenes/scene_default2.unity
+    guid: decc6581b501d034f817a689bd799818
+  - enabled: 1
+    path: Assets/Scenes/KOEX/WD_Partyroom.unity
+    guid: 147988059d43c41f4a969d0da603b0ea
+  - enabled: 1
+    path: Assets/Scenes/KOEX/WD_fancommunity_room.unity
+    guid: f8458dd7d03063146be47a127a36418f
+  - enabled: 1
+    path: Assets/Scenes/MyRoom.unity
+    guid: 54c7f08df903a41b48cfc3c8f4e32c49
+  - enabled: 1
+    path: Assets/Scenes/KOEX/in_koex_DrinkLine.unity
+    guid: b4b7cabfc5af1ce46abb54a88fb94e28
+  - enabled: 1
+    path: Assets/Scenes/KOEX/in_koex_KL.unity
+    guid: 048dc6620f9b7654bb72081832015782
+  - enabled: 1
+    path: Assets/Scenes/KOEX/in_koex_NEMOPLANET.unity
+    guid: 6476939baf569ea4cbdb648a80e974e3
+  - enabled: 1
+    path: Assets/Scenes/KOEX/in_koex_ODC.unity
+    guid: 8ed932e13121b7343bf91e6abb23e500
+  - enabled: 1
+    path: Assets/Scenes/KOEX/in_koex_MS.unity
+    guid: f3a068663fd32624bbccb363d8dbc2db
+  - enabled: 1
+    path: Assets/Scenes/KOEX/in_koex_ZA.unity
+    guid: f159947b6c7a2ac49a84dd52e99a316a
+  - enabled: 0
+    path: Assets/Scenes/Intro.unity
+    guid: 3478edabc72c2f5419ee96f8362e2171
+  m_configObjects: {}

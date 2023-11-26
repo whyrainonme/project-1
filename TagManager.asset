@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NPC
+  - Collidable
+  - users
+  - playerColl
+  - Actor
+  - public-audio-1
+  - public-audio-2
+  - public-audio-3
+  - IMPASSABLE
+  - Media_P
+  - Media_V
+  - portal
+  - WallNFloor
+  - AudioZone
+  - pictureDL
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Users
+  - Player
+  - UsersZone
+  - PlayerZone
+  - TimeMap
+  - Item
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 1607641753
+    locked: 0
+  - name: 2
+    uniqueID: 912424729
+    locked: 0
+  - name: 3
+    uniqueID: 3280147931
+    locked: 0
+  - name: 4
+    uniqueID: 384427145
+    locked: 0
+  - name: 5
+    uniqueID: 3406879945
+    locked: 0
+  - name: 6
+    uniqueID: 2267104637
+    locked: 0
+  - name: 7
+    uniqueID: 4246440989
+    locked: 0
+  - name: 8
+    uniqueID: 3585958967
+    locked: 0
+  - name: 9
+    uniqueID: 3845190273
+    locked: 0
+  - name: 10
+    uniqueID: 1175043093
+    locked: 0
+  - name: 11
+    uniqueID: 3768054365
+    locked: 0
+  - name: 12
+    uniqueID: 249550795
+    locked: 0
+  - name: 13
+    uniqueID: 1473678199
+    locked: 0
+  - name: 14
+    uniqueID: 1793769143
+    locked: 0
+  - name: 15
+    uniqueID: 852835131
+    locked: 0
